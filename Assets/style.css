@@ -19,14 +19,20 @@ body {
 
 .card-header {
     padding: 4rem;
+}
+
+.card-header h1{
     font-family: "Playwrite VN", cursive;
     font-optical-sizing: auto;
     font-weight: 700;
     text-align: center;
+    color: red;
 }
 
-h1 {
-    color: red;
+
+
+.card-header h1:hover {
+    color: aqua;
 }
 
 .card-img-top {
