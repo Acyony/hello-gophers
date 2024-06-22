@@ -55,9 +55,10 @@ body {
     padding: 1rem;
     text-align: center;
 }
-.card-footer p {
-    color: white;
 
+.card-footer a {
+    color: white;
+    tex-deoration: none;
 }
 
 
