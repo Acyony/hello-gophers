@@ -1,14 +1,21 @@
 body {
-
+    background: rgb(61, 119, 222);
+    background: linear-gradient(39deg, rgba(61, 119, 222, 1) 12%, rgba(0, 0, 0, 1) 36%, rgba(0, 146, 175, 1) 80%, rgba(0, 212, 255, 1) 100%);;
 }
 
+.navbar {
+    background-image: url("/Assets/images/nav-2.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+
+}
 
 .navbar-logo {
     margin-left: 2rem;
 }
 
 .card {
-    margin: 1rem;
     background: rgba(255, 255, 255, 0.25);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(4px);
@@ -21,14 +28,13 @@ body {
     padding: 4rem;
 }
 
-.card-header h1{
-    font-family: "Playwrite VN", cursive;
+.card-header h1 {
+    font-family: "Raleway", cursive;
     font-optical-sizing: auto;
     font-weight: 700;
     text-align: center;
-    color: red;
+    color: pink;
 }
-
 
 
 .card-header h1:hover {
@@ -41,11 +47,28 @@ body {
 
 .container {
     margin-bottom: 2rem;
-
 }
 
 .card-footer {
-    background: pink;
+    background: rgb(64, 60, 104);
+    background: linear-gradient(39deg, rgba(64, 60, 104, 0.9094012605042017) 12%, rgba(0, 0, 0, 1) 56%, rgba(0, 80, 95, 1) 77%, rgba(0, 93, 111, 1) 83%, rgba(0, 146, 175, 1) 88%, rgba(0, 212, 255, 1) 100%);
     padding: 1rem;
     text-align: center;
+}
+.card-footer p {
+    color: white;
+
+}
+
+
+@media screen and (min-width: 768px) {
+    body {
+        .card {
+            margin: 1rem 0.5rem;
+        }
+    }
+
+    .images-container {
+        align-self: center;
+    }
 }
